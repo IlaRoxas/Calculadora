@@ -1,0 +1,10 @@
+C:\Users\Facu\Desktop\Seminario 1\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\Facu\Desktop\Seminario 1\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\Facu\Desktop\Seminario 1\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\Facu\Desktop\Seminario 1\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.AssemblyReference.cache
+C:\Users\Facu\Desktop\Seminario 1\Calculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\Facu\Desktop\Seminario 1\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+C:\Users\Facu\Desktop\Seminario 1\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\Facu\Desktop\Seminario 1\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\Facu\Desktop\Seminario 1\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\Facu\Desktop\Seminario 1\Calculadora\Calculadora\obj\Debug\Calculadora.Principal.resources
