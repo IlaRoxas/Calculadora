@@ -24,9 +24,9 @@ namespace Calculadora
         Multiplicacion = 3,
         Division = 4
     }
-    public partial class Principal : Form
+    public partial class FrmPrincipal : Form
     {
-        public Principal()
+        public FrmPrincipal()
         {
             InitializeComponent();
         }
@@ -38,14 +38,14 @@ namespace Calculadora
         private void btn0_Click_1(object sender, EventArgs e)
         {
             nroLeido= true;
-            if (txtScreen.Text == "0") return;
+            if (txtScreen.Text.StartsWith("0")) return;
             else txtScreen.Text += "0";
         }
         private void LeerNro(string numero)
         {
             nroLeido = true;
             /* REEMPLAZA EL PRIMER "0" POR EL NÚMERO INGRESADO Y APILA NÚMEROS EN LA CAJA DE TEXTO Y */
-            if (txtScreen.Text == "0" && txtScreen.Text != null)
+            if (txtScreen.Text.StartsWith("0") && txtScreen.Text != null)
             {
                 txtScreen.Text = numero;
             }
@@ -203,12 +203,21 @@ namespace Calculadora
         }
         private void txt_KeyDown(object sender, KeyEventArgs e)
         {
-            if(e.KeyCode.Equals(Keys.Add) || e.KeyCode.Equals(Keys.Oemplus))
+        }
+        private void btnCambiaOperador_Click(object sender, EventArgs e)
+        {
+            string pantalla = txtScreen.Text;
+            if (!string.IsNullOrEmpty(pantalla) && !pantalla.Equals("0"))// Verifica si la pantalla no está vacía o si el valor no es 0.
             {
-                
+                if (pantalla.StartsWith("-"))// Verifica si la cadena empieza con -
+                {
+                    txtScreen.Text = pantalla.Substring(1);// Cambia de signo
+                }
+                else
+                {
+                    txtScreen.Text = "-" + pantalla;// Si es positivo, agrega un signo negativo.
+                }
             }
         }
-
-
     }
 }

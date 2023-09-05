@@ -1,6 +1,6 @@
 ﻿namespace Calculadora
 {
-    partial class Principal
+    partial class FrmPrincipal
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPrincipal));
             this.btn7 = new System.Windows.Forms.Button();
             this.btn8 = new System.Windows.Forms.Button();
             this.btn9 = new System.Windows.Forms.Button();
@@ -49,6 +49,7 @@
             this.btnC = new System.Windows.Forms.Button();
             this.txtScreen = new System.Windows.Forms.TextBox();
             this.lblHistorial = new System.Windows.Forms.Label();
+            this.btnCambiaOperador = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn7
@@ -153,9 +154,9 @@
             // btn0
             // 
             this.btn0.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn0.Location = new System.Drawing.Point(53, 228);
+            this.btn0.Location = new System.Drawing.Point(102, 228);
             this.btn0.Name = "btn0";
-            this.btn0.Size = new System.Drawing.Size(92, 41);
+            this.btn0.Size = new System.Drawing.Size(43, 41);
             this.btn0.TabIndex = 9;
             this.btn0.Text = "0";
             this.btn0.UseVisualStyleBackColor = true;
@@ -276,11 +277,23 @@
             this.lblHistorial.Size = new System.Drawing.Size(0, 13);
             this.lblHistorial.TabIndex = 21;
             // 
-            // Principal
+            // btnCambiaOperador
+            // 
+            this.btnCambiaOperador.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCambiaOperador.Location = new System.Drawing.Point(56, 229);
+            this.btnCambiaOperador.Name = "btnCambiaOperador";
+            this.btnCambiaOperador.Size = new System.Drawing.Size(40, 40);
+            this.btnCambiaOperador.TabIndex = 22;
+            this.btnCambiaOperador.Text = "+/-";
+            this.btnCambiaOperador.UseVisualStyleBackColor = true;
+            this.btnCambiaOperador.Click += new System.EventHandler(this.btnCambiaOperador_Click);
+            // 
+            // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(308, 341);
+            this.Controls.Add(this.btnCambiaOperador);
             this.Controls.Add(this.lblHistorial);
             this.Controls.Add(this.txtScreen);
             this.Controls.Add(this.btnC);
@@ -302,7 +315,7 @@
             this.Controls.Add(this.btn8);
             this.Controls.Add(this.btn7);
             this.KeyPreview = true;
-            this.Name = "Principal";
+            this.Name = "FrmPrincipal";
             this.Text = "Calculadora version 1.0";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -331,6 +344,7 @@
         private System.Windows.Forms.Button btnC;
         private System.Windows.Forms.TextBox txtScreen;
         private System.Windows.Forms.Label lblHistorial;
+        private System.Windows.Forms.Button btnCambiaOperador;
     }
 }
 

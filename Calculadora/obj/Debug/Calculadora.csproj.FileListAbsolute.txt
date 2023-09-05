@@ -7,4 +7,4 @@ C:\Users\Facu\Desktop\Seminario 1\Calculadora\Calculadora\obj\Debug\Calculadora.
 C:\Users\Facu\Desktop\Seminario 1\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
 C:\Users\Facu\Desktop\Seminario 1\Calculadora\Calculadora\obj\Debug\Calculadora.exe
 C:\Users\Facu\Desktop\Seminario 1\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
-C:\Users\Facu\Desktop\Seminario 1\Calculadora\Calculadora\obj\Debug\Calculadora.Principal.resources
+C:\Users\Facu\Desktop\Seminario 1\Calculadora\Calculadora\obj\Debug\Calculadora.FrmPrincipal.resources
